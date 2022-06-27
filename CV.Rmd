@@ -1,0 +1,16 @@
+---
+title: "CV"
+description: |
+  My current CV.
+
+output: distill::distill_article
+---
+
+
+```{r, test, echo=FALSE}
+knitr::include_url("CV/CV.pdf")
+```
+
+
+
+

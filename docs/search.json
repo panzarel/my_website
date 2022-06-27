@@ -1,0 +1,59 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-27T15:43:40-04:00"
+    },
+    {
+      "path": "CV.html",
+      "title": "CV",
+      "description": "My current CV.\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-27T15:43:41-04:00"
+    },
+    {
+      "path": "home.html",
+      "title": "Tony Panzarella, MSc, P.Stat.",
+      "author": [],
+      "contents": "\r\n\r\n          \r\n          \r\n          \r\n          \r\n          Tony Panzarella\r\n          \r\n          \r\n          About\r\n          Teaching\r\n          Students\r\n          Talks\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Tony Panzarella, MSc, P.Stat.\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        CV\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            BIOGRAPHY\r\n            I am an Assistant Professor and MSc Program Director in\r\n            the Division of Biostatistics, DLSPH, University of Toronto.\r\n            I am the President of the Southern Ontario Regional\r\n            Association of the Statistical Society of Canada (SSC) and\r\n            the Southern Ontario Chapter of the American Statistical\r\n            Association. I was recently elected to the Board of\r\n            Directors of the SSC. I have been professionally accredited\r\n            with a P.Stat. designation since 2008.\r\n            ADDRESS\r\n            Dalla Lana School of Public Health, 6th Floor, Room 632,\r\n            155 College St., Toronto, ON, Canada, M5T 3M7\r\n            TELEPHONE\r\n            416-978-8979\r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Tony Panzarella, MSc, P.Stat.\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      CV\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              BIOGRAPHY\r\n              I am an Assistant Professor and MSc Program Director in\r\n              the Division of Biostatistics, DLSPH, University of\r\n              Toronto. I am the President of the Southern Ontario\r\n              Regional Association of the Statistical Society of Canada\r\n              (SSC) and the Southern Ontario Chapter of the American\r\n              Statistical Association. I was recently elected to the\r\n              Board of Directors of the SSC. I have been professionally\r\n              accredited with a P.Stat. designation since 2008.\r\n              ADDRESS\r\n              Dalla Lana School of Public Health, 6th Floor, Room\r\n              632, 155 College St., Toronto, ON, Canada, M5T 3M7\r\n              TELEPHONE\r\n              416-978-8979\r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2022-06-27T15:43:41-04:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Welcome to my website",
+      "description": "I am an Assistant Professor and MSc Program Director in the Division of Biostatistics at the Dalla Lana School of Public Health, University of Toronto. Previously,  I was a biostatistician and manager of the Biostatistics Department, Princess Margaret Cancer Centre, Toronto, ON, Canada. \n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-27T15:43:43-04:00"
+    },
+    {
+      "path": "Students.html",
+      "title": "Students",
+      "description": "Students I have supervised recently\n",
+      "author": [],
+      "contents": "\r\nStudent Name: Shing Yu Wong (Masters student,\r\nUniversity of Waterloo, 2021)\r\nFunding Source: OICR Biostatistics Training\r\nInitiative\r\nProject Title: Statistical design and analysis\r\nissues analyzing a phase III randomized clinical trial for the\r\nprevention of chronic graft-versus-host disease in cancer patients who\r\nhave received an allogeneic bone marrow transplant from an unrelated\r\ndonor\r\nDate: May 2021 - December 2021\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-27T15:43:44-04:00"
+    },
+    {
+      "path": "talks.html",
+      "title": "Recent Talks",
+      "author": [],
+      "contents": "\r\n\r\n          \r\n          \r\n          \r\n          \r\n          Tony Panzarella\r\n          \r\n          \r\n          About\r\n          Teaching\r\n          Students\r\n          Talks\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            Recent Talks\r\n          \r\n          \r\n            \r\n              \r\n            \r\n            \r\n              \r\n            \r\n          \r\n\r\n          \r\n            \r\n              \r\n                  \r\n                    \r\n                      Misuse of statistics is unethical\r\n                    \r\n                  \r\n                \r\n                              \r\n          \r\n\r\n          \r\n            \r\n              \r\n                                \r\n                  \r\n                    Misuse of statistics is unethical\r\n                  \r\n                \r\n                              \r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
+      "last_modified": "2022-06-27T15:43:44-04:00"
+    },
+    {
+      "path": "teaching.html",
+      "title": "My Teaching",
+      "description": "Courses I currently teach at the University of Toronto, St. George Campus.\n",
+      "author": [],
+      "contents": "\r\nCategorical Data Analysis CHL5210H\r\n(2018-present)\r\nThis course exposes students to statistical methods used for\r\ncategorical data analysis. These include traditional methods for two-way\r\ncontingency tables. Most of the course focuses on regression models,\r\nwith an emphasis on logistic regression models. Analysis of repeated\r\ncategorical response data, namely marginal and random effects models is\r\nalso included.\r\nLab in Statistical Design and Analysis\r\nCHL5207Y/CHL5208Y (2010-present)\r\nThe goals of this course are 1) to provide Masters and PhD students\r\nwith knowledge of, and experience with, statistical design and analysis\r\nconcepts used regularly by the consulting biostatistician. 2) To provide\r\nstudents with experience in communicating (both verbally and in writing)\r\nstatistical concepts in lay language and 3) to practice analyzing data\r\nand interpreting their results.\r\nLearning from Data : An Introduction to Study Design and\r\nStatistical Analysis Methods MSC1030H (2021-present)\r\nThe goals of this course are to provide students with the ability to\r\n1) describe and apply fundamental statistical concepts in formulating\r\ntheir own research using the PPDAC investigate process (Problem, Plan,\r\nData, Analysis and Conclusion), and 2) to critically appraise research\r\nevidence from the scientific and medical literature.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-27T15:43:46-04:00"
+    }
+  ],
+  "collections": []
+}
