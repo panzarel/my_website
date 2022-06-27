@@ -1,0 +1,19 @@
+---
+title: "Students"
+description: |
+  Students I have supervised recently
+
+output: distill::distill_article
+---
+
+
+**Student Name**: Shing Yu Wong (Masters student, University of Waterloo, 2021)
+
+**Funding Source**: OICR Biostatistics Training Initiative
+
+**Project Title**: Statistical design and analysis issues analyzing a phase III randomized clinical trial for the prevention of chronic graft-versus-host disease in cancer patients who have received an allogeneic bone marrow transplant from an unrelated donor
+
+**Date**: May 2021 - December 2021
+
+
+

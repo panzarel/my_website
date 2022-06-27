@@ -1,0 +1,25 @@
+---
+title: "My Teaching"
+description: |
+  Courses I currently teach at the University of Toronto, St. George Campus.
+
+output: distill::distill_article
+---
+
+
+1.  **Categorical Data Analysis** CHL5210H (2018-present)
+
+      This course exposes students to statistical methods used for categorical data analysis. These include traditional methods for two-way contingency tables. Most of the course focuses on       regression models, with an emphasis on logistic regression models. Analysis of repeated categorical response data, namely marginal and random effects models is also included. 
+
+2.  **Lab in Statistical Design and Analysis**  CHL5207Y/CHL5208Y (2010-present)
+
+      The goals of this course are 1) to provide Masters and PhD students with knowledge of, and experience with, statistical design and analysis concepts used regularly by the consulting biostatistician. 2) To provide students with experience in communicating (both verbally and in writing) statistical concepts in lay language and 3) to practice analyzing data and interpreting their results.
+
+
+3.  **Learning from Data : An Introduction to Study Design and Statistical Analysis Methods** MSC1030H (2021-present)
+
+      The goals of this course are to provide students with the ability to 1) describe and apply fundamental statistical concepts in formulating their own research using the PPDAC investigate process (Problem, Plan, Data, Analysis and Conclusion), and 2) to critically appraise research evidence from the scientific and medical literature.
+
+
+
+

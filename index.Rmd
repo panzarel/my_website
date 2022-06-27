@@ -1,0 +1,13 @@
+---
+title: "Welcome to my website"
+description: |
+ I am an Assistant Professor and MSc Program Director in the Division of Biostatistics at the Dalla Lana School of Public Health, University of Toronto. Previously,  I was a biostatistician and manager of the Biostatistics Department, Princess Margaret Cancer Centre, Toronto, ON, Canada. 
+site: distill::distill_website
+---
+
+
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("images/Summer2019.png")
+```
+
+

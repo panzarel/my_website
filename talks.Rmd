@@ -1,0 +1,12 @@
+---
+title: "Recent Talks"
+links:
+  - label: Misuse of statistics is unethical
+    url: "Talks/misuse.pdf"
+output: postcards::jolla
+  
+---
+
+```{r echo=FALSE, fig.alt='Title Slide'}
+knitr::include_graphics("images/misuse.PNG")
+```

@@ -1,0 +1,21 @@
+name: "Tony Panzarella"
+title: "Tony Panzarella"
+theme: styles.css
+description: |
+  my_website
+output_dir: "docs"
+navbar:
+  logo:
+    image: images/th.jfif
+  search: TRUE
+  right:
+    - text: "About"
+      href: home.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Students"
+      href: Students.html
+    - text: "Talks"
+      href: talks.html
+output: distill::distill_article
+

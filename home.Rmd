@@ -1,0 +1,32 @@
+---
+title: "Tony Panzarella, MSc, P.Stat."
+image: "images/Summer2019.png"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/tony-panzarella-b093599/?originalSubdomain=ca"
+  - label: CV
+    url: "CV/CV.pdf"
+  - label: Email
+    url: "mailto:tony.panzarella@utoronto.ca"
+  
+  
+output:
+  postcards::trestles 
+---
+ 
+
+**BIOGRAPHY**
+
+I am an Assistant Professor and MSc Program Director in the Division of Biostatistics, DLSPH, University of Toronto. I am the President of the Southern Ontario Regional Association of the Statistical Society of Canada (SSC) and the Southern Ontario Chapter of the American Statistical Association. I was recently elected to the Board of Directors of the SSC. I have been professionally accredited with a P.Stat. designation since 2008.
+
+**ADDRESS**
+
+Dalla Lana School of Public Health,
+6th Floor, Room 632,
+155 College St., 
+Toronto, ON, Canada,
+M5T 3M7
+
+**TELEPHONE**
+
+416-978-8979
