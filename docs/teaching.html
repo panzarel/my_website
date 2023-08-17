@@ -458,8 +458,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -788,6 +788,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1860,15 +1861,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2396,7 +2403,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2447,39 +2454,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>My Teaching</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Courses I currently teach at the University of Toronto, St. George
-Campus.</p></p>
+<p><p>Courses I currently teach at the University of Toronto, St. George Campus.</p></p>
 </div>
 
 
 <div class="d-article">
 <ol type="1">
-<li><p><strong>Categorical Data Analysis</strong> CHL5210H
-(2018-present)</p>
-<p>This course exposes students to statistical methods used for
-categorical data analysis. These include traditional methods for two-way
-contingency tables. Most of the course focuses on regression models,
-with an emphasis on logistic regression models. Analysis of repeated
-categorical response data, namely marginal and random effects models is
-also included.</p></li>
-<li><p><strong>Lab in Statistical Design and Analysis</strong>
-CHL5207Y/CHL5208Y (2010-present)</p>
-<p>The goals of this course are 1) to provide Masters and PhD students
-with knowledge of, and experience with, statistical design and analysis
-concepts used regularly by the consulting biostatistician. 2) To provide
-students with experience in communicating (both verbally and in writing)
-statistical concepts in lay language and 3) to practice analyzing data
-and interpreting their results.</p></li>
-<li><p><strong>Learning from Data : An Introduction to Study Design and
-Statistical Analysis Methods</strong> MSC1030H (2021-present)</p>
-<p>The goals of this course are to provide students with the ability to
-1) describe and apply fundamental statistical concepts in formulating
-their own research using the PPDAC investigate process (Problem, Plan,
-Data, Analysis and Conclusion), and 2) to critically appraise research
-evidence from the scientific and medical literature.</p></li>
+<li><p><strong>Categorical Data Analysis</strong> CHL5210H (2018-present)</p>
+<p>This course exposes students to statistical methods used for categorical data analysis. These include traditional methods for two-way contingency tables. Most of the course focuses on regression models, with an emphasis on logistic regression models. Analysis of repeated categorical response data, namely marginal and random effects models is also included.</p></li>
+<li><p><strong>Lab in Statistical Design and Analysis</strong> CHL5207Y/CHL5208Y (2010-present)</p>
+<p>The goals of this course are 1) to provide Masters and PhD students with knowledge of, and experience with, statistical design and analysis concepts used regularly by the consulting biostatistician. 2) To provide students with experience in communicating (both verbally and in writing) statistical concepts in lay language and 3) to practice analyzing data and interpreting their results.</p></li>
+<li><p><strong>Learning from Data : An Introduction to Study Design and Statistical Analysis Methods</strong> MSC1030H (2021-present)</p>
+<p>The goals of this course are to provide students with the ability to 1) describe and apply fundamental statistical concepts in formulating their own research using the PPDAC investigate process (Problem, Plan, Data, Analysis and Conclusion), and 2) to critically appraise research evidence from the scientific and medical literature.</p></li>
 </ol>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
